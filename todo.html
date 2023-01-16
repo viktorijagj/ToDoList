@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>To Do List</title>
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+   <header>
+      <nav id="navigation">
+       <ul>
+           <li><a href="todo.html">Потсетник</a></li>
+		   <li><a href="aboutus.html">За нас</a></li>
+           <li><a href="#">Контакт</a></li>
+       </ul>
+       </nav>
+   </header>
+    <section id="todoContainer">
+      <h1>Потсетник<i class="fa fa-pencil fa-fw"></i></h1>
+      <h2>Список со задачи кои го олеснуват планирањето на вашиот ден. Без разлика дали се работи за на работа, во училиште или дома, потсетникот ќе ви помогне да ја зголемите вашата продуктивност и организираност.</h2>
+       <div id="inputContainer">
+        <input type="text" name="createElement" id="createElement" autofocus>
+        <input type="button" name="addElement" id="addElement" value="Додади">
+        </div>
+        <p class="message"></p>
+        <ul id="createdList" class="sortable list">
+        </ul>
+        <p id="clearButton"><a id="clearAllBtn" href="javascript:void();">Избришај се</a></p>
+    </section>
+    <aside id="adventage">
+        <ol>
+           <h2>Придобивки од користењето список со задачи </h2>
+            <li>Ја зголемува продуктивноста</li>
+            <li>Дава мотивација</li>
+            <li>Ја подобрува меморијата</li>
+            <li>Го намалува стресот</li>
+            <li>Повеќе слободно време</li>
+        </ol>
+    </aside>
+<!--    Jquery-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<!--    Script for sortable elemenst -->
+    <script src="script/jquery.sortable.js"></script>
+    <script src="script/script.js"></script>
+</body>
+</html>
